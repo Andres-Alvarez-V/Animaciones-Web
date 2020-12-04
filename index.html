@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="notification" id="notification">
+                <div class="menu-id" id="notify-circle"></div>
+            </div>
+            <h1 class="header-title">Animaciones olas css</h1>
+            <div class="wave a"></div>
+            <div class="wave b"></div>
+            <div class="wave c"></div>
+            <div class="menu-id"></div>
+        </header>
+        <section class="menu">
+            <h2 class="menu-title">ANIMACIONES</h2>
+            <div class="menu-container">
+                <button class="menu-link" id="btnOlas">Olas animadas</button>
+                <button class="menu-link" id="btnModal">Modal animado</button>
+                <button class="menu-link" id="btnNotify">Notificaciones</button>
+                <button class="menu-link" id="btnSaludo">Saludo animado</button>
+                <button class="menu-link" id="btnLogo">Logo animado</button>
+                <button class="menu-link" id="btnSprite">Sprite animado</button>
+            </div>
+        </section>
+        <section class="saludo">
+            <div class="saludo-circulo a"><p class="saludo-frase">Hola</p></div>
+            <div class="saludo-circulo b"><p class="saludo-frase">Mundo</p></div>
+            <div class="saludo-circulo c"><p class="saludo-frase">Bienvenidos!!</p></div>
+            <i id="btnPausePlay" class="fas fa-pause-circle"></i>
+            <div class="menu-id"></div>
+        </section>
+
+        <footer>
+            <section class="platzi">
+                <p class="platzi-parrafo">Proyecto inspirado en el curso de animaciones CSS en:</p>
+                <a href="https://platzi.com/clases/animaciones-web/" target="_blank" class="platzi-link">
+                    <div class="platzi-logo">
+                        <div class="platzi-top"></div>
+                        <div class="platzi-bottom"></div>
+                    </div>
+                    <span>Platzi</span>
+                </a>
+                <div class="menu-id" id="platzi-id"></div>
+            </section>
+            <section class="corazon">
+                <p class="corazon-parrafo">¿Te Gusta lo que ves? Presiona el Corazón!!</p>
+                <div class="corazon-like " id="like"></div>
+                <div class="menu-id"></div>
+            </section>
+        </footer>
+    </div>
+    <section class="seccion-modal" id="seccionModal">
+        <div class="capa activa" id="capaModal">
+            <div class="modal" id="modal">
+                <p class="modal-titulo">Modal Animado</p>
+                <p class="modal-contenido">Para cerrar el modal presiona el boton cerrar o da click en cualquier parte afuera del mismo.</p>
+                <button class="modal-boton" id="btnCerrarModal">Cerrar</button>
+            </div>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html>
